@@ -47,7 +47,7 @@ curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh
 brew install zsh-autosuggestions
 
 # java
-brew install cask java8
+brew cask install java8
 #echo "export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk" >> ~/.zshrc
 
 brew install maven
