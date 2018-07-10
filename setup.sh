@@ -106,7 +106,7 @@ pip install virtualenv
 
 # symlink config files from repo
 ln -s ~/machine_setup/.gitconfig ~/.gitconfig
-ln -s ~/machine_setup/.
+ln -s ~/machine_setup/.zshrc ~/.zshrc
 
 # todo
 # kube with username password
