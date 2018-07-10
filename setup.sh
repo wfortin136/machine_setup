@@ -43,7 +43,7 @@ brew install tmux
 brew install vim
 
 # oh-my-zsh
-curl -fsSL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh
+eval "$(curl -SL https://raw.github.com/robbyrussell/oh-my-zsh/master/tools/install.sh)" &
 brew install zsh-autosuggestions
 
 # java
