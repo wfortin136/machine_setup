@@ -95,3 +95,5 @@ source $ZSH/oh-my-zsh.sh
 alias kube="kubectl"
 alias ngrok="/opt/ngrok/bin/ngrok"
 export JAVA_HOME=/Library/Java/JavaVirtualMachines/jdk1.8.0_172.jdk/Contents/Home
+export ILLUSTRATORREF=/Users/billy.fortin/development/vividseats/Mapping-POC/scripts/illustrator
+alias estk="/Applications/Adobe\ ExtendScript\ Toolkit\ CC/ExtendScript\ Toolkit.app/Contents/MacOS/ExtendScript\ Toolkit -run"

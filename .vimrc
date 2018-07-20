@@ -22,6 +22,8 @@ autocmd VimEnter * wincmd p
 "nmap <F2> :NERDTreeToggle<CR>
 let NERDTreeQuitOnOpen=0
 
+set number
+set mouse=a
 "------------------------------------------------------------
 " Indentation options {{{1
 "
