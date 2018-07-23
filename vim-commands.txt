@@ -1,0 +1,88 @@
+Key Chars
+w - Word
+f - Find
+y - yank (copy)
+x - Cut
+p - Paste
+u - Undo
+g - Go
+b - Beginning
+r - Replace
+c - Change
+s - Substitute
+o - new line
+
+i - Insert mode
+v - visual mode 
+
+
+Save document                             (:w)
+Quit document                             (:q)
+
+Basic Movement
+ - Arrow Keys
+ - Go to first line                       (gg)
+ - Go to line                             ({number}gg)
+ - Go to last line                        (G)
+ - Go to last edited line                 ('.)
+ - Go to last edited position             (g;)
+ - Move to the end of the line            ($)
+ - Move to the begining of the test       (^)
+ - Move to the begining of the line       (0)
+ - Move to start of next word             (w)
+ - Move to beginning of word              (b)
+ - Move to beginning of previous word     (B)
+ - Move to end of word                    (e)
+ - Move forward n words                   ({number} w)
+ - Move back n words                      ({number} b)
+ - Find character in front of cursor      (f {char})
+ - Find character behind cursor           (F {char})
+ - Find nth occurance of character        ({numner} f {char})
+ - Find char sequence                     (/ {char sequence..}
+ - Move to next paragraph
+ - Move to ending block                   (%)
+ - Move to middle of buffer               (M)
+
+Selecting
+ - select lines                           (v {up / down})
+ - select n lines                         (v {number} {up / down})  
+ - Select word                            (viw)
+ - select Characters / Block              (ctrl + v)           
+
+Editing
+ - Delete line                            (dd)
+ - Delete n lines                         ({number} dd)
+ - Delete to end of line                  (D)
+ - Delete word                            (diw) 
+
+ - Replace one character                  (r)
+ - Replace multiple characters            (R)
+ - Substitue character                    (s)
+ - Change end of line                     (shift C)
+ - Change entire word                     (ciw)
+ - Chage to character                     (ct {char})
+ - Change inside of thing                 (ci {thing})
+
+ - Replace all occurances in line         (:s/{old}/{new}/g)
+ - Replace all occurances in file         (:%s/{old}/{new}/g)
+
+ - Undo chanegs                           (u)
+ - Undo n changes                         ({number} u)
+ - Redo changes                           (r)
+ - Redo n changes                         ({number} r)
+
+ - change case                            (~)
+ - Repeat last command                    (.)
+
+ - Mirror characters from line above      (ctrl + y)
+ - Mirror characters from line below      (ctrl + e)
+
+ - Join lines                             (J)
+ - Join n lines                           ({number} J)
+
+Macros
+ - Record macro in register l             (q {letter})
+ - Stop recording                         (q)
+ - Play macro                             (@ {letter})
+
+ 
